@@ -14,8 +14,8 @@ const translations = {
     about_label: "Faites connaissance",
     about_title: "À propos de moi",
     about_intro: "Je suis une développeuse web passionnée, dédiée à la création d'expériences numériques propres, efficaces et conviviales.",
-    about_p1: "Fortement formée au développement front-end et back-end, je me spécialise dans la création de sites et d'applications web responsives qui sont non seulement élégants, mais fonctionnent aussi sans accroc. Je crois en l'écriture d'un code propre et maintenable, en accordant de l'attention à chaque détail qui fait la différence dans l'expérience utilisateur.",
-    about_p2: "Mon approche combine la résolution créative de problèmes avec une expertise technique pour livrer des projets qui dépassent les attentes. Qu'il s'agisse d'une plateforme de e-commerce dynamique ou d'un site personnel élégant, j'apporte le même niveau d'engagement et de professionnalisme à chaque projet.",
+    about_p1: "Fortement formée au développement front-end et back-end, je me spécialise dans la création de sites et d'applications web responsives qui sont non seulement élégants, mais fon",
+    about_p2: "Mon approche combine la résolution créative de problèmes avec une expertise technique pour livrer des projets qui dépassent les attentes. Qu'il s'agisse d'une plateforme de e-co",
     stats_projects: "Projets réalisés",
     stats_clients: "Clients satisfaits",
     stats_experience: "Années d'expérience",
@@ -54,7 +54,7 @@ const translations = {
     contact_label: "Entrons en contact",
     contact_title: "Me contacter",
     contact_cta: "Travaillons ensemble",
-    contact_desc: "Vous avez un projet en tête ou souhaitez discuter d'une éventuelle collaboration ? Je serais ravie de vos nouvelles. N'hésitez pas à me contacter via l'un des canaux ci-dessous.",
+    contact_desc: "Vous avez un projet en tête ou souhaitez discuter d'une éventuelle collaboration ? Je serais ravie de vos nouvelles. N'hésitez pas à me contacter via l'un des canaux ci-dess",
     contact_location: "Disponible pour le travail à distance partout dans le monde",
     form_name: "Votre nom",
     form_email: "Votre email",
@@ -118,8 +118,8 @@ const translations = {
     about_label: "Get To Know Me",
     about_title: "About Me",
     about_intro: "I'm a passionate web developer dedicated to crafting clean, efficient, and user-friendly digital experiences.",
-    about_p1: "With a strong foundation in front-end and back-end development, I specialize in building responsive websites and web applications that not only look great but also perform seamlessly. I believe in writing clean, maintainable code and paying attention to every detail that makes a difference in the user experience.",
-    about_p2: "My approach combines creative problem-solving with technical expertise to deliver projects that exceed expectations. Whether it's a dynamic e-commerce platform or a sleek personal website, I bring the same level of dedication and professionalism to every project.",
+    about_p1: "With a strong foundation in front-end and back-end development, I specialize in building responsive websites and web applications that not only look great but also perform seamless",
+    about_p2: "My approach combines creative problem-solving with technical expertise to deliver projects that exceed expectations. Whether it's a dynamic e-commerce platform or a sleek personal ",
     stats_projects: "Projects Completed",
     stats_clients: "Happy Clients",
     stats_experience: "Years Experience",
@@ -222,8 +222,8 @@ const translations = {
     about_label: "تعرّف علي",
     about_title: "نبذة عني",
     about_intro: "أنا مطورة ويب شغوفة، مكرّسة لإنشاء تجارب رقمية نظيفة وفعّالة وسهلة الاستخدام.",
-    about_p1: "بفضل أساس قوي في تطوير الواجهات والخوادم، أتخصص في بناء مواقع وتطبيقات ويب متجاوبة لا تبدو رائعة فحسب، بل تعمل بسلاسة أيضاً. أؤمن بكتابة كود نظيف وقابل للصيانة، مع الاهتمام بكل تفصيل يُحدث فرقاً في تجربة المستخدم.",
-    about_p2: "يجمع أسلوبي بين حل المشكلات الإبداعي والخبرة التقنية لتقديم مشاريع تتجاوز التوقعات. سواء كانت منصة تجارة إلكترونية ديناميكية أو موقعاً شخصياً أنيقاً، أقدّم نفس المستوى من الالتزام والاحترافية في كل مشروع.",
+    about_p1: "بفضل أساس قوي في تطوير الواجهات والخوادم، أتخصص في بناء مواقع وتطبيقات ويب متجاوبة لا تبدو رائعة ف",
+    about_p2: "يجمع أسلوبي بين حل المشكلات الإبداعي والخبرة التقنية لتقديم مشاريع تتجاوز التوقعات. سواء كانت منص",
     stats_projects: "مشروع منجز",
     stats_clients: "عميل راضٍ",
     stats_experience: "سنوات خبرة",
@@ -245,7 +245,7 @@ const translations = {
     project_shoes_title: "متجر الأحذية الإلكتروني",
     project_shoes_desc: "متجر أحذية إلكتروني احترافي مع فلاتر حسب المقاس والماركة، إدارة المخزون وخيارات طلب سريع.",
     project_tech_title: "متجر التقنية الإلكتروني",
-    project_tech_desc: "متجر إلكتروني للإلكترونيات والملحقات مع صفحة منتج مفصلة، مقارنة الأسعار والدفع الآمن عبر الإنترنت.",
+    project_tech_desc: "متجر إلكتروني للإلكترونيات والملحقات مع صفحة منتج مفصلة، مقارنة الأسعار والدفع الآمن عبر الإ",
     project_view: "عرض المشروع",
     services_label: "ماذا أقدم",
     services_title: "خدماتي",
@@ -262,7 +262,7 @@ const translations = {
     contact_label: "تواصل معي",
     contact_title: "اتصل بي",
     contact_cta: "لنعمل معاً",
-    contact_desc: "هل لديك مشروع فكرة أو ترغب في مناقشة تعاون محتمل؟ يسعدني أن أسمع منك. لا تتردد في التواصل معي عبر أي من القنوات أدناه.",
+    contact_desc: "هل لديك مشروع فكرة أو ترغب في مناقشة تعاون محتمل؟ يسعدني أن أسمع منك. لا تتردد في التواصل معي عبر ",
     contact_location: "متاحة للعمل عن بُعد في جميع أنحاء العالم",
     form_name: "اسمك",
     form_email: "بريدك الإلكتروني",
@@ -489,14 +489,7 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-/* ===== PROJECT MANAGEMENT (server-side via PHP + JSON) ===== */
-/* Kept well under typical shared-hosting post_max_size limits: a 700KB
- * file becomes ~933KB once base64-encoded, which stays safely under the
- * ~1-2MB many hosts allow for the whole request body. A too-large image
- * used to make the entire request silently disappear server-side, which
- * looked exactly like "Save" doing nothing. */
 const MAX_IMG_SIZE = 700000;
-
 let cachedProjects = [];
 
 function getProjects() {
@@ -651,19 +644,8 @@ async function deleteProject(id) {
 }
 
 let editId = null;
-/* The icon/placeholderClass of the project currently being edited (there's
- * no field for these in the form itself). Defaults to the generic "code"
- * look for brand-new projects; set to the real values in openForm() when
- * editing, so Save doesn't silently overwrite a project's original icon
- * (this used to happen on every single edit, including the 3 built-in
- * sample projects). */
 let editIcon = 'fas fa-code';
 let editPlaceholderClass = 'placeholder-tech';
-/* Holds the base64 data of a newly-picked image for the form that is
- * currently open. Must live here (not inside bindAdmin) so openForm()
- * can reset it every time the form is opened - otherwise an image
- * picked for one project stayed cached in memory and got silently
- * attached to the next project added/edited without a new picture. */
 let currentImage = null;
 
 function openOverlay(el) {
@@ -693,9 +675,7 @@ function openForm(project) {
   openOverlay(document.getElementById('adminFormOverlay'));
 }
 
-/* ===== ADMIN AUTH (server-side via PHP sessions) ===== */
 const formStatusClass = 'form-status';
-
 let serverAuthed = false;
 
 function fetchJson(url, opts) {
@@ -729,7 +709,6 @@ function showAdminTab(tab) {
   if (tab === 'messages') refreshMessages();
 }
 
-/* ===== MESSAGES ===== */
 function renderMessages(messages) {
   const list = document.getElementById('messagesList');
   if (!list) return;
