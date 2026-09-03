@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev by Ferdaous | Portfolio Développeuse Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- v=2: bump this number every time style.css is edited on the server,
+         otherwise visitors' browsers (and some hosting caches) can keep
+         serving an old cached copy and your design changes won't show up. -->
+    <link rel="stylesheet" href="style.css?v=12">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Dev by <span>Ferdaous</span></a>
+            <div class="nav-right">
+                <div class="language-selector" role="group" aria-label="Language selector">
+                    <button class="lang-btn" data-lang="fr" aria-label="Français">FR 🇫🇷</button>
+                    <button class="lang-btn" data-lang="en" aria-label="English">EN 🇬🇧</button>
+                    <button class="lang-btn" data-lang="ar" aria-label="العربية">AR 🇩🇿</button>
+                </div>
+                <button class="nav-toggle" id="navToggle" aria-label="Menu de navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link" data-i18n="nav_about">À propos</a></li>
+                <li><a href="#skills" class="nav-link" data-i18n="nav_skills">Compétences</a></li>
+                <li><a href="#projects" class="nav-link" data-i18n="nav_projects">Projets</a></li>
+                <li><a href="#services" class="nav-link" data-i18n="nav_services">Services</a></li>
+                <li><a href="#contact" class="nav-link nav-link-cta" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="pattern-bg">
+                <svg preserveAspectRatio="xMidYMid slice" height="100%" width="100%" class="cube-svg" viewBox="0 0 120 104">
+                    <defs>
+                        <linearGradient y2="100%" x2="100%" y1="0%" x1="0%" id="cube-dark">
+                            <stop stop-color="#232526" offset="0%"></stop>
+                            <stop stop-color="#414345" offset="100%"></stop>
+                        </linearGradient>
+                        <linearGradient y2="0%" x2="100%" y1="100%" x1="0%" id="cube-mid">
+                            <stop stop-color="#6b3a4a" offset="0%"></stop>
+                            <stop stop-color="#2a1a22" offset="100%"></stop>
+                        </linearGradient>
+                        <linearGradient y2="100%" x2="0%" y1="0%" x1="100%" id="cube-light">
+                            <stop stop-color="#c49a7c" offset="0%"></stop>
+                            <stop stop-color="#8b3a4a" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting" data-i18n="hero_greeting">Bonjour, je suis</p>
+                <h1 class="hero-name">Ferdaous</h1>
+                <h2 class="hero-title" data-i18n="hero_title">Développeuse Web</h2>
+                <p class="hero-description" data-i18n="hero_description">Je crée des expériences web modernes, responsives et sécurisées.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" data-i18n="hero_cta_work">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-outline" data-i18n="hero_cta_contact">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-loader">
+                    <div class="capybaraloader">
+                        <div class="capybara">
+                            <div class="capyhead">
+                                <div class="capyear">
+                                    <div class="capyear2"></div>
+                                </div>
+                                <div class="capyear"></div>
+                                <div class="capymouth">
+                                    <div class="capylips"></div>
+                                    <div class="capylips"></div>
+                                </div>
+                                <div class="capyeye"></div>
+                                <div class="capyeye"></div>
+                            </div>
+                            <div class="capyleg"></div>
+                            <div class="capyleg2"></div>
+                            <div class="capyleg2"></div>
+                            <div class="capy"></div>
+                        </div>
+                        <div class="loader">
+                            <div class="loaderline"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-indicator">
+                <span data-i18n="hero_scroll">Défiler vers le bas</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="about_label">Faites connaissance</span>
+                <h2 class="section-title" data-i18n="about_title">À propos de moi</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro" data-i18n="about_intro">Je suis une développeuse web passionnée, dédiée à la création d'expériences numériques propres, efficaces et conviviales.</p>
+                    <p data-i18n="about_p1">Fortement formée au développement front-end et back-end, je me spécialise dans la création de sites et d'applications web responsives qui sont non seulement élégants, mais fonctionnent aussi sans accroc. Je crois en l'écriture d'un code propre et maintenable, en accordant de l'attention à chaque détail qui fait la différence dans l'expérience utilisateur.</p>
+                    <p data-i18n="about_p2">Mon approche combine la résolution créative de problèmes avec une expertise technique pour livrer des projets qui dépassent les attentes. Qu'il s'agisse d'une plateforme de e-commerce dynamique ou d'un site personnel élégant, j'apporte le même niveau d'engagement et de professionnalisme à chaque projet.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="10">10+</span>
+                            <span class="stat-label" data-i18n="stats_projects">Projets réalisés</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="5">5+</span>
+                            <span class="stat-label" data-i18n="stats_clients">Clients satisfaits</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="3">3+</span>
+                            <span class="stat-label" data-i18n="stats_experience">Années d'expérience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="skills_label">Avec quoi je travaille</span>
+                <h2 class="section-title" data-i18n="skills_title">Mes compétences</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <h3>HTML</h3>
+                    <p data-i18n="skill_html">Balisage sémantique et accessibilité</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                    <h3>CSS</h3>
+                    <p data-i18n="skill_css">Mises en page modernes et animations</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <h3>JavaScript</h3>
+                    <p data-i18n="skill_js">Fonctionnalités interactives et dynamiques</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-php"></i></div>
+                    <h3>PHP</h3>
+                    <p data-i18n="skill_php">Logique côté serveur et API</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>MySQL</h3>
+                    <p data-i18n="skill_mysql">Conception et gestion de bases de données</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
+                    <h3>Bootstrap</h3>
+                    <p data-i18n="skill_bootstrap">Frameworks responsives</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                    <h3>Git / GitHub</h3>
+                    <p data-i18n="skill_git">Contrôle de version et collaboration</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3 data-i18n="skill_responsive">Design Responsive</h3>
+                    <p data-i18n="skill_responsive_desc">Compatibilité sur tous les appareils</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="projects_label">Travail à l'honneur</span>
+                <h2 class="section-title" data-i18n="projects_title">Mes projets</h2>
+            </div>
+            <div class="projects-grid" id="projectsGrid">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="services_label">Ce que je propose</span>
+                <h2 class="section-title" data-i18n="services_title">Mes services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3 data-i18n="service_dev">Développement de Sites Web</h3>
+                    <p data-i18n="service_dev_desc">Des sites web sur mesure utilisant des technologies modernes, optimisés pour la performance et l'évolutivité.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-palette"></i></div>
+                    <h3 data-i18n="service_responsive">Conception Web Réactive</h3>
+                    <p data-i18n="service_responsive_desc">Des designs beaux et responsives qui s'affichent parfaitement sur tous les appareils et tailles d'écran.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-store"></i></div>
+                    <h3 data-i18n="service_ecommerce">Sites de E-Commerce</h3>
+                    <p data-i18n="service_ecommerce_desc">Des boutiques en ligne complètes avec intégration de paiement sécurisé et gestion des stocks.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3 data-i18n="service_ui">Développement d'Interfaces UI</h3>
+                    <p data-i18n="service_ui_desc">Des interfaces intuitives et conviviales qui améliorent l'engagement et la satisfaction des utilisateurs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3 data-i18n="service_sec">Sécurité et Optimisation</h3>
+                    <p data-i18n="service_sec_desc">Renforcement de la sécurité des sites, optimisation des performances et amélioration de la vitesse.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label" data-i18n="contact_label">Entrons en contact</span>
+                <h2 class="section-title" data-i18n="contact_title">Me contacter</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-i18n="contact_cta">Travaillons ensemble</h3>
+                    <p data-i18n="contact_desc">Vous avez un projet en tête ou souhaitez discuter d'une éventuelle collaboration ? Je serais ravie de vos nouvelles. N'hésitez pas à me contacter via l'un des canaux ci-dessous.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>batoulanfif@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-i18n="contact_location">Disponible pour le travail à distance partout dans le monde</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/batoulanfif-cyber" class="social-link" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/dev_by_ferdaous?igsi=OGhvcHAzb2M0N2R1" class="social-link" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61593449888023" class="social-link" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder=" " required>
+                        <label for="name" data-i18n="form_name">Votre nom</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder=" " required>
+                        <label for="email" data-i18n="form_email">Votre email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                        <label for="message" data-i18n="form_message">Votre message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span data-i18n="form_submit">Envoyer le message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p data-i18n="footer_rights">© 2026 Dev by Ferdaous — Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#about" data-i18n="nav_about">À propos</a>
+                    <a href="#skills" data-i18n="nav_skills">Compétences</a>
+                    <a href="#projects" data-i18n="nav_projects">Projets</a>
+                    <a href="#contact" data-i18n="nav_contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="admin-overlay" id="loginOverlay">
+        <div class="admin-modal admin-login" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+            <div class="admin-header">
+                <h3 id="loginTitle" data-i18n="login_title">Espace administrateur</h3>
+                <button type="button" class="admin-close" id="loginCloseBtn" aria-label="Fermer"><i class="fas fa-times"></i></button>
+            </div>
+            <form class="admin-login-form" id="loginForm">
+                <div class="admin-field">
+                    <label for="loginUser" data-i18n="login_user">Nom d'utilisateur</label>
+                    <input type="text" id="loginUser" autocomplete="username" required>
+                </div>
+                <div class="admin-field">
+                    <label for="loginPass" data-i18n="login_pass">Mot de passe</label>
+                    <input type="password" id="loginPass" autocomplete="current-password" required>
+                </div>
+                <p class="login-error" id="loginError" data-i18n="login_error">Identifiants incorrects.</p>
+                <button type="submit" class="btn btn-primary btn-sm admin-login-submit" data-i18n="login_submit">Se connecter</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="admin-overlay" id="adminOverlay">
+        <div class="admin-modal" role="dialog" aria-modal="true" aria-labelledby="adminTitle">
+            <div class="admin-header">
+                <h3 id="adminTitle" data-i18n="admin_title">Panneau d'administration</h3>
+                <div class="admin-header-right">
+                    <a href="logout.php" class="admin-logout" id="adminLogoutBtn" title="Déconnexion">
+                        <i class="fas fa-sign-out-alt"></i> <span data-i18n="admin_logout">Se déconnecter</span>
+                    </a>
+                    <button type="button" class="admin-close" id="adminCloseBtn" aria-label="Fermer"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div class="admin-tabs">
+                <button type="button" class="admin-tab-btn active" data-tab="projects">
+                    <i class="fas fa-th"></i> <span data-i18n="admin_tab_projects">Projets</span>
+                </button>
+                <button type="button" class="admin-tab-btn" data-tab="messages">
+                    <i class="fas fa-envelope"></i> <span data-i18n="admin_tab_messages">Messages</span>
+                    <span class="admin-badge" id="messagesBadge">0</span>
+                </button>
+            </div>
+            <div class="admin-panel" id="adminProjectsPanel">
+                <div class="admin-actions">
+                    <button type="button" class="btn btn-primary btn-sm" id="adminAddBtn">
+                        <i class="fas fa-plus"></i> <span data-i18n="admin_add">Ajouter un projet</span>
+                    </button>
+                </div>
+                <div class="admin-list" id="adminList"></div>
+            </div>
+            <div class="admin-panel" id="adminMessagesPanel" style="display:none;">
+                <div class="admin-actions admin-messages-actions">
+                    <button type="button" class="btn btn-outline btn-sm" id="adminRefreshBtn">
+                        <i class="fas fa-sync-alt"></i> <span data-i18n="admin_refresh">Actualiser</span>
+                    </button>
+                </div>
+                <div class="admin-list" id="messagesList"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="admin-overlay" id="adminFormOverlay">
+        <div class="admin-modal admin-modal-form">
+            <div class="admin-header">
+                <h3 id="adminFormTitle" data-i18n="admin_form_title">Ajouter un projet</h3>
+                <button type="button" class="admin-close" id="adminFormCloseBtn" aria-label="Fermer"><i class="fas fa-times"></i></button>
+            </div>
+            <form class="admin-form" id="adminForm">
+                <div class="admin-field">
+                    <label for="pfTitle" data-i18n="admin_field_title">Titre du projet *</label>
+                    <input type="text" id="pfTitle" required>
+                </div>
+                <div class="admin-field">
+                    <label for="pfLink" data-i18n="admin_field_link">Lien du projet (URL)</label>
+                    <input type="url" id="pfLink" placeholder="https://...">
+                </div>
+                <div class="admin-field">
+                    <label for="pfDesc" data-i18n="admin_field_desc">Description courte</label>
+                    <textarea id="pfDesc" rows="3"></textarea>
+                </div>
+                <div class="admin-field">
+                    <label data-i18n="admin_field_tech">Technologies (séparées par des virgules)</label>
+                    <input type="text" id="pfTech">
+                </div>
+                <div class="admin-field">
+                    <label data-i18n="admin_field_image">Image du projet</label>
+                    <input type="file" id="pfImage" accept="image/*">
+                    <div class="admin-image-preview" id="adminImagePreview"></div>
+                </div>
+                <div class="admin-form-actions">
+                    <button type="button" class="btn btn-outline btn-sm" id="adminFormCancelBtn" data-i18n="admin_cancel">Annuler</button>
+                    <button type="submit" class="btn btn-primary btn-sm" data-i18n="admin_save">Enregistrer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- v=2: bump this number every time script.js is edited, same reason as style.css above -->
+    <script src="script.js?v=5"></script>
+</body>
+</html>
